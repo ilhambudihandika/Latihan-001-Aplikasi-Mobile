@@ -1,5 +1,6 @@
 # Latihan-001-Aplikasi-Mobile
 
+````dart
 void main() {
   String nama = 'Deny';
   int umur = 20;
@@ -58,3 +59,4 @@ void main() {
 
   print('Nama saya $namasaya, semester $semestersaya');
 }
+````
