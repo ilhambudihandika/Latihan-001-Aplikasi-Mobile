@@ -1,58 +1,58 @@
 void main() {
-  String nama = 'Deny';
-  int umur = 20;
-  double tinggi = 170.5;
-  bool mahasiswaAktif = true;
+  String namaHewan = 'Kucing';
+  int umurHewan = 3;
+  double beratHewan = 4.5;
+  bool sudahDivaksin = true;
 
-  print(nama);
-  print(umur);
-  print(tinggi);
-  print(mahasiswaAktif);
-  
+  print(namaHewan);
+  print(umurHewan);
+  print(beratHewan);
+  print(sudahDivaksin);
+
   //------------------------------------
-  
-  String? namaTeman = 'Rapli';
 
-  print(namaTeman);
+  String? warnaHewan = 'Putih';
 
-  namaTeman = null;
+  print(warnaHewan);
 
-  print(namaTeman);
-  
-  final String namaKampus = 'Institut Global';
+  warnaHewan = null;
 
-  print(namaKampus);
-  
-  const int semester = 3;
+  print(warnaHewan);
 
-  print(semester);
-  
-  String namamahasiswa = 'Deny';
+  final String namaPemilik = 'Ilham';
 
-  print(namamahasiswa.toUpperCase());
-  
-  int jumlahTeman = 5;
+  print(namaPemilik);
 
-  print(jumlahTeman);
-  
-  double nilaiUjian = 85.5;
+  const int jumlahHewan = 2;
 
-  print(nilaiUjian);
-  
-  bool sudahMengerjakanTugas = true;
+  print(jumlahHewan);
 
-  print(sudahMengerjakanTugas);
-  
-  List<String> mataKuliah = [
-    'Matematika',
-    'Pemrograman',
-    'Aplikasi Mobile'
+  String jenisHewan = 'kucing';
+
+  print(jenisHewan.toUpperCase());
+
+  int jumlahKaki = 4;
+
+  print(jumlahKaki);
+
+  double tinggiHewan = 30.5;
+
+  print(tinggiHewan);
+
+  bool sudahMakan = true;
+
+  print(sudahMakan);
+
+  List<String> makananHewan = [
+    'Ikan',
+    'Ayam',
+    'Whiskas'
   ];
 
-  print(mataKuliah);
-  
-  String namasaya = 'Deny';
-  int semestersaya = 3;
+  print(makananHewan);
 
-  print('Nama saya $namasaya, semester $semestersaya');
+  String namaSaya = 'Ilham';
+  String namaPeliharaan = 'Milo';
+
+  print('Nama saya $namaSaya, nama hewan saya $namaPeliharaan');
 }
