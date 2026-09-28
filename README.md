@@ -23,7 +23,7 @@ void main() {
 
   print(warnaHewan);
 
-  final String namaPemilik = 'Budi';
+  final String namaPemilik = 'Ilham';
 
   print(namaPemilik);
 
@@ -55,8 +55,8 @@ void main() {
 
   print(makananHewan);
 
-  String namaHewanSaya = 'Milo';
-  int umurHewanSaya = 2;
+  String namaSaya = 'Ilham';
+  String namaPeliharaan = 'Milo';
 
-  print('Nama hewan saya $namaHewanSaya, umurnya $umurHewanSaya tahun');
+  print('Nama saya $namaSaya, nama hewan saya $namaPeliharaan');
 }
